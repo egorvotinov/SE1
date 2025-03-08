@@ -2,4 +2,11 @@
 
 using namespace std;
 
-int main()
+int main() {
+     int num1, num2;
+     cout << "¬ведите первое целое число: ";
+     cin >> num1;
+     cout << "¬ведите второе целое число: ";
+     cin >> num2;
+     return 0;
+ }
