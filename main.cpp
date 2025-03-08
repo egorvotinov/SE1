@@ -1,4 +1,4 @@
-#include <iostream> // Программа учебная
+#include <iostream> // The program is educational. the student is Egor Votinov. 2025. group ke-217
 
 using namespace std;
 
