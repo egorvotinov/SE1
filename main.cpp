@@ -1,15 +1,23 @@
-#include <iostream> // The program is educational. The student is Egor Votinov. 2025. Group KE-217.
+ï»¿#include <iostream> // The program is educational. The student is Egor Votinov. 2025. Group KE-217.
 
 using namespace std;
 
 int main() {
     int num1, num2;
-    cout << "Ââåäèòå ïåðâîå öåëîå ÷èñëî: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
     cin >> num1;
-    cout << "Ââåäèòå âòîðîå öåëîå ÷èñëî: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
     cin >> num2;
-    cout << "Ñóììà ÷èñåë: " << num1 + num2 << endl;
-    cout << "Ðàçíîñòü ÷èñåë: " << num1 - num2 << endl;
-    cout << "Ïðîèçâåäåíèå ÷èñåë: " << num1 * num2 << endl;
+    cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ñ‡Ð¸ÑÐµÐ»: " << num1 + num2 << endl;
+    cout << "Ð Ð°Ð·Ð½Ð¾ÑÑ‚ÑŒ Ñ‡Ð¸ÑÐµÐ»: " << num1 - num2 << endl;
+    cout << "ÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ Ñ‡Ð¸ÑÐµÐ»: " << num1 * num2 << endl;
+
+    if (num2 != 0) {
+        cout << "Ð§Ð°ÑÑ‚Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐµÐ»: " << num1 / num2 << endl;
+    }
+    else {
+        cout << "ÐžÑˆÐ¸Ð±ÐºÐ°: Ð´ÐµÐ»ÐµÐ½Ð¸Ðµ Ð½Ð° Ð½Ð¾Ð»ÑŒ Ð½ÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾." << endl;
+    }
+
     return 0;
 }
