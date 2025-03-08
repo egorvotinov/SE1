@@ -10,5 +10,6 @@ int main() {
     cin >> num2;
     cout << "Сумма чисел: " << num1 + num2 << endl;
     cout << "Разность чисел: " << num1 - num2 << endl;
+    cout << "Частное чисел: " << num1 / num2 << endl;
     return 0;
 }
