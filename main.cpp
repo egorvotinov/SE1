@@ -1,4 +1,4 @@
-#include <iostream> // The program is educational. the student is Egor Votinov. 2025. group ke-217
+#include <iostream> // The program is educational. The student is Egor Votinov. 2025. Group KE-217.
 
 using namespace std;
 
@@ -10,5 +10,6 @@ int main() {
     cin >> num2;
     cout << "Сумма чисел: " << num1 + num2 << endl;
     cout << "Разность чисел: " << num1 - num2 << endl;
+    cout << "Произведение чисел: " << num1 * num2 << endl;
     return 0;
 }
